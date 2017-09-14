@@ -3,8 +3,8 @@ version: "2"
 services:
   tensorflow:
     image: tensorflow/tensorflow
-    volumes:
-      - ./data:/data
+    #volumes:
+      # Se colocar os meus notebooks ele perde do getting started
+      #- ./notebooks:/notebooks/
     ports:
       - "8888:8888"
-      - "6006:6006"
