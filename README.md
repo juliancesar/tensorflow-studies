@@ -8,3 +8,7 @@
 ## HTTP ports
 
 * 8888 - Jupyter
+
+## Exemplos
+
+* `git clone https://github.com/tensorflow/models`
