@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  tensorflow:
+    image: tensorflow/tensorflow
+    volumes:
+      - ./data:/data
+    ports:
+      - "8888:8888"
+      - "6006:6006"
